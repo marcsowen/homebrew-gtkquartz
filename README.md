@@ -1,4 +1,4 @@
-homebrew-gtk-quartz
+homebrew-gtkquartz
 ===================
 
 Homebrew tap with quartz enabled for gtk libraries. This removes the need to install the XQuartz server.
@@ -6,4 +6,4 @@ Homebrew tap with quartz enabled for gtk libraries. This removes the need to ins
 Installation
 ============
 
-```brew tap marcsowen/homebrew-gtk-quartz```
+```brew tap marcsowen/gtkquartz```
