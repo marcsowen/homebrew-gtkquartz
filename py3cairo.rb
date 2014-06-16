@@ -6,7 +6,7 @@ class Py3cairo < Formula
   sha1 'b4283aa1cc9aafd12fd72ad371303a486da1d014'
 
   depends_on 'pkg-config' => :build
-  depends_on 'cairo'
+  depends_on 'marcsowen/gtkquartz/cairo'
   depends_on :python3
 
   def install

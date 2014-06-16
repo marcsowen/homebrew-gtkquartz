@@ -7,10 +7,10 @@ class Pygtk < Formula
 
   depends_on 'pkg-config' => :build
   depends_on 'glib'
-  depends_on 'gtk+'
+  depends_on 'marcsowen/gtkquartz/gtk+'
   depends_on 'atk'
   depends_on 'pygobject'
-  depends_on 'py2cairo'
+  depends_on 'marcsowen/gtkquartz/py2cairo'
   depends_on 'libglade' => :optional
 
   option :universal

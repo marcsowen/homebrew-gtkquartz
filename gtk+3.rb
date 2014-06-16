@@ -16,8 +16,8 @@ class Gtkx3 < Formula
   depends_on 'jpeg'
   depends_on 'libtiff'
   depends_on 'gdk-pixbuf'
-  depends_on 'pango'
-  depends_on 'cairo'
+  depends_on 'marcsowen/gtkquartz/pango'
+  depends_on 'marcsowen/gtkquartz/cairo'
   depends_on 'jasper' => :optional
   depends_on 'atk'
   depends_on 'at-spi2-atk'

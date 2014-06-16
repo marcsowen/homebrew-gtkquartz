@@ -6,7 +6,7 @@ class Py2cairo < Formula
   sha1 '2efa8dfafbd6b8e492adaab07231556fec52d6eb'
 
   depends_on 'pkg-config' => :build
-  depends_on 'cairo'
+  depends_on 'marcsowen/gtkquartz/cairo'
   depends_on :python
 
   option :universal
