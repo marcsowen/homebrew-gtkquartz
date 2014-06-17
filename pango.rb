@@ -14,7 +14,7 @@ class Pango < Formula
   depends_on 'pkg-config' => :build
   depends_on 'glib'
   depends_on 'marcsowen/gtkquartz/cairo'
-  depends_on 'harfbuzz'
+  depends_on 'marcsowen/gtkquartz/harfbuzz'
   depends_on 'fontconfig'
   depends_on 'gobject-introspection'
 
