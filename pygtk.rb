@@ -11,7 +11,7 @@ class Pygtk < Formula
   depends_on 'atk'
   depends_on 'pygobject'
   depends_on 'marcsowen/gtkquartz/py2cairo'
-  depends_on 'libglade' => :optional
+  depends_on 'marcsowen/gtkquartz/libglade' => :optional
 
   option :universal
 
